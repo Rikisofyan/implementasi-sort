@@ -3,6 +3,8 @@ using namespace std;
  
 int main(){
 	cout<<"++++++++PENGURUTAN ANGKA +++++++++"<<endl<<endl;
+    
+    
     int a[50],n,i,j,srt;
     cout<<"masukan jumlah angka =  ";
     cin>>n;
@@ -22,7 +24,8 @@ int main(){
                 a[j+1]=srt;
             }
     }
-    cout<<"urutan angka nya adalah = ";
+    
+   cout<<"urutan angka nya adalah = ";
     for(i=0;i<n;++i)
         cout<<" "<<a[i];
         
